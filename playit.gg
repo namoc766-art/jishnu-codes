@@ -1,0 +1,10 @@
+wget https://github.com/playit-cloud/playit-agent/releases/download/v0.15.26/playit-linux-amd64
+
+chmod +x playit-linux-amd64
+
+./playit-linux-amd64
+
+
+if your first playit cmd not work then use this cmd
+
+bash <(curl -s https://raw.githubusercontent.com/JishnuTheGamer/Vps/refs/heads/main/playit-ins)
