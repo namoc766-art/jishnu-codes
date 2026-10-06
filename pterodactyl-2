@@ -9,3 +9,9 @@ mkdir panel
 cd panel
 
 nano docker-compose.yml
+
+docker-compose up -d
+
+Create a user for the panel:
+
+docker-compose run --rm panel php artisan p:user:make
